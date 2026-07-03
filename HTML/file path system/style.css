@@ -1,0 +1,15 @@
+/* for class styling we use dot . */
+/* we used .second to specify that where we have to apply the css */
+.second{
+    text-align: center;
+}
+/* for id styling we use  hashtag # */
+/* first is the name of id we are refering that thatswhy fist is written there */
+#first{
+    background-color: aqua;
+    stroke-width: 0%;
+    text-decoration: double;
+    text-decoration-color: blueviolet;
+    text-overflow: ellipsis;
+    text-align: center;
+}

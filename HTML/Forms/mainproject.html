@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>University Registration form</h1>
+    <p>please fill out the form below to register</p>
+    <hr>
+    <h2>Personal Details</h2>
+    <form>
+        <label for="first name">Frist Name</label>
+        <!-- placeholhder means initially something will be written -->
+        <input type="text" name="usersfirstname" id="first name"  placeholder="e.g:arjun">
+        <br><br>
+        <label for="last name">LastName</label>
+        <input type="text" name="userslastname" id="last name" placeholder="e.g :rawat">
+        <br><br>
+        <label for="dateofbirth">Date Of Birth</label>
+         <input type="date" name="date of birth" id="date of birth">
+         <br><br>
+
+         <h3>Gender:</h3>
+         <label for="female">Female</label>
+         <input type="radio" name="gender" id="female" value="female">
+         <br><br>
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="male" value="male">
+         <br><br>
+         <label for="other">Other</label>
+         <input type="radio" name="gender" id="other" value="other">
+         <br><br>
+
+        <h3>Upload Your Photo</h3>
+        <!-- required marks means form cant be filled if we does not fill that space -->
+        <input type="file" name="usersimage" id="photo" required>
+        <hr> 
+
+        <h2>Contact Information</h2>
+        <label for="email address">Email Address:</label>
+        <input type="email" name="email address"id="email address" placeholder="you@example.com">
+        <br><br>
+        <label for="phone number">Phone Number:</label>
+        <input type="tel" name="phone number" id="phone number" placeholder="e.g:987654321">
+         <br><br>
+
+
+
+         <label for="Address">Mailing Address:</label>
+         <br><br>
+         <!-- text area means we can write so much (for adress this is used) 
+          we can define size of text area too by rows and columns-->
+         <textarea name="Address" id="Address" rows="15" cols="15"></textarea>
+         <hr>
+
+         <h2>Academic Information</h2>
+         <label for="course"> Select your course:</label>
+         <!-- for  course selection we can use tag seclt name -->
+         <select name="course" id="course">
+            <!-- option tag is used fo selection of code -->
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="ECE">ECE</option>
+            <option value="civil engineerging">civil engineering</option>
+         </select>
+         <h3>Extra curricular Activities:</h3>
+         <label for="sports">Sports</label>
+         <input type="checkbox" name="interest" id="sports" value="sports">
+         <br><br>
+
+         <label for="Music">Music</label>
+         <input type="checkbox" name="interest" id=" Music" value="Music and arts">
+         <br><br>
+
+         <label for="Technology">Technolgy</label>
+         <input type="checkbox" name="interest" id="Technology" value="Technology clubs">
+         <br><br>
+
+         <label for="Volunteering">Volunterring</label>
+         <input type="checkbox"name="interest" id="Volunterring" value="Volunteering">
+         <br><br>
+
+         <label for="cultural">Cultural</label>
+         <input type="checkbox" name="interest" id="cultural" value="cultural activity">
+         <br><br>
+         <hr>
+
+
+         <h2> Create your Account</h2>
+         <label for="pass"> create password</label>
+         <input type="password"name="password" id="pass">
+         <br><br>
+        
+         <label for="secu">Security answer</label>
+        <input type="text" name="Security" id="secu">
+        <hr>
+         <input type="submit" value="resister">
+       <button type ="submit">Resiter</button>
+       <button type="reset">Clear Form</button>
+    </form>
+
+</body>
+</html>
