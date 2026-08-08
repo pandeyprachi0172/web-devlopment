@@ -1,3 +1,4 @@
+// to write anthing in js use conle.log()
 console.log("Strike is coming");
 
 // Variable declaration
@@ -77,3 +78,34 @@ let s = function add() {
 s(); // Calling the function
 
 console.log(typeof s); // function
+
+
+// primitive data types are immutable: means at particular position value cannot be changed
+
+let f1 = 10;
+f1 = 20;
+
+let str = "Rohit";
+str = "Mohan";
+
+console.log(str);
+
+
+// Non-Primitive dATA type: they are mutable means at particular position we can change the value push 90
+
+let arr2 = [10, 20, 30, 40];
+
+arr2.push(90);
+arr2[0] = 70;
+
+console.log(arr2);
+
+let obj2 = {
+    name: "mohan",
+    age: 20,
+    class: 6
+};
+
+console.log(obj2);
+
+
