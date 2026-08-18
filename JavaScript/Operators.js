@@ -36,9 +36,9 @@ console.log(p < q);
 
 console.log(p <= q);
 
-console.log(p == q);  // Checks only value
+console.log(p == q);  // Checks only value (first compares )
 
-console.log(p === q); // Checks value and data type
+console.log(p === q); // Checks value and data type (first check the datatype then comapares)
 
 
 // Convert string to number
@@ -77,3 +77,5 @@ console.log(Number(false)); // Boolean false
 console.log(Number(null));      // 0
 
 console.log(Number(undefined)); // NaN
+
+//computer science problem (of decimal)
