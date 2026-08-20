@@ -79,3 +79,7 @@ console.log(Number(null));      // 0
 console.log(Number(undefined)); // NaN
 
 //computer science problem (of decimal)
+
+
+
+.///git commit -u jkdn
